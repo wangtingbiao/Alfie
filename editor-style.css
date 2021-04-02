@@ -1,0 +1,32 @@
+.block-editor-writing-flow .block-editor-rich-text__editable strong {
+  color: #fcb900;
+}
+
+.block-editor-writing-flow .block-editor-rich-text__editable code {
+  margin: 0 4px;
+  padding: 4px 6px;
+  color: #aeb3bc;
+  background-color: #3f4348;
+  border-radius: 4px;
+}
+
+.block-editor-writing-flow .block-editor-rich-text__editable s {
+  color: #70747e;
+}
+
+.block-editor-writing-flow .block-editor-rich-text__editable a {
+  font-weight: 700;
+  color: #a4d007;
+  text-decoration: none;
+}
+
+.block-editor-writing-flow .block-editor-rich-text__editable ul,
+.block-editor-writing-flow .block-editor-rich-text__editable ol {
+  margin-left: 20px;
+}
+
+.block-editor-writing-flow .is-selected {
+  padding: 10px 14px;
+  background-color: #f2f2f2;
+  border-radius: 6px;
+}

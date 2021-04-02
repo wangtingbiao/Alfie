@@ -1,0 +1,32 @@
+.is-style-blue-btn .wp-block-button__link,
+.is-style-red-btn .wp-block-button__link,
+.is-style-green-btn .wp-block-button__link {
+  padding: 8px 16px !important;
+  line-height: 1.5 !important;
+  border-radius: 4px !important;
+}
+
+.is-style-blue-btn .wp-block-button__link {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#3999ec), to(#0078f2));
+  background-image: linear-gradient(to bottom right, #3999ec, #0078f2);
+}
+
+.is-style-red-btn .wp-block-button__link {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#f20031), to(#b80025));
+  background-image: linear-gradient(to bottom right, #f20031, #b80025);
+}
+
+.is-style-green-btn .wp-block-button__link {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#a4d007), to(#799a04));
+  background-image: linear-gradient(to bottom right, #a4d007, #799a04);
+}
+
+@media only screen and (min-width: 992px) {
+
+  .is-style-blue-btn .wp-block-button__link,
+  .is-style-red-btn .wp-block-button__link,
+  .is-style-green-btn .wp-block-button__link {
+    padding: 8px 22px !important;
+    font-size: 15px !important;
+  }
+}
